@@ -40,6 +40,17 @@ ead:
     exchange:
       userEvent: ead.userevent
 
+authuser:
+  refreshscope:
+    name: Marcelo SiLva
+
+management:
+  endpoints:
+    web:
+      exposure:
+        incluse:
+          - refresh
+          - health
 
 resilience4j:
   circuitbreaker:
