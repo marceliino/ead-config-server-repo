@@ -7,7 +7,7 @@ spring:
   application:
     name: ead-notification-service-hex
   datasource:
-    url:  jdbc:postgresql://localhost:5432/ead-notification-hex
+    url: jdbc:postgresql://localhost:5432/ead-notification-hex
     username: postgres
     password: root
   jpa:
