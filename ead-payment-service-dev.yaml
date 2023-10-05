@@ -36,9 +36,14 @@ ead:
   broker:
     exchange:
       userEventExchange: ead.userevent
+      paymentCommandExchange: ead.paymentcommand
     queue:
       userEventQueue:
         name: ead.userevent.ms.payment
+      paymentCommandQueue:
+        name: ead.paymentcommand.ms.payment
+    key:
+      paymentCommandKey: ms.payment
 
 management:
   endpoints:
